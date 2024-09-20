@@ -35,4 +35,4 @@ function! NdpGotoLine()
 endfunction
 
 map <Plug>NdpGotoLine :call NdpGotoLine()<cr>
-nnoremap gd <Plug>NdpGotoLine
+nnoremap <buffer> gd <Plug>NdpGotoLine
