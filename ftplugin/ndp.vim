@@ -1,5 +1,6 @@
 setlocal shiftwidth=2
 setlocal tabstop=2
+setlocal norelativenumber
 
 function! NdpGotoLine()
     let l:word = expand('<cword>')
