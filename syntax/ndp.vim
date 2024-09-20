@@ -16,16 +16,14 @@ syn keyword ndpKeyword forall exists contained
 syn match ndpBoolean /\b$T\|F$\b/ contained
 syn match ndpOperator /[\^~=\-><->\,.()/]/ contained
 
-syn keyword ndpRuleName given ass premise tick contained
-syn keyword ndpRuleName forallI forallE existsI existsE contained
-
 " IDK, viml!
 syn match ndpRuleName /\<forall\>/ contained containedin=ndpRule
 syn match ndpRuleName /\<I\>/ contained containedin=ndpRule
 syn match ndpRuleName /\<const\>/ contained containedin=ndpRule
-
+syn keyword ndpRuleName given ass premise tick contained
+syn keyword ndpRuleName forallI forallE existsI existsE contained
 syn match ndpRuleName /[\^E^I~E~I/E/I]/ contained
-syn match ndpRuleName /[=sub]/ contained
+syn match ndpRuleName /[=sub=sym]/ contained
 syn match ndpRuleName /[forall\->E]/ contained
 syn match ndpRuleName /[FEFITI]/ contained
 
