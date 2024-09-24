@@ -19,6 +19,7 @@ function! NdpGotoLine()
 
     let l:i = 0
     let l:j = 0
+    normal m'
     while l:i < l:linenr
         let l:j += 1
         if l:j > line('$')

@@ -23,6 +23,7 @@ syn match ndpRuleName /\<const\>/ contained containedin=ndpRule
 syn keyword ndpRuleName given ass premise tick refl LEM PC MT contained
 syn keyword ndpRuleName forallI forallE existsI existsE contained
 syn match ndpRuleName /[\^E^I~E~I/E/I]/ contained
+syn match ndpRuleName /[\->I\->E<\->I<\->E]/ contained
 syn match ndpRuleName /[=sub=sym]/ contained
 syn match ndpRuleName /[forall\->E]/ contained
 syn match ndpRuleName /[FEFITI]/ contained
